@@ -1,0 +1,24 @@
+% Specifications
+fs = 1000; % Sampling frequency (Hz)
+fpass = 100; % Passband frequency (Hz)
+fstop = 150; % Stopband frequency (Hz)
+order = 50; % Filter order
+
+% Design FIR Filter
+coefficients = fir1(order, [fpass fstop]/(fs/2), 'bandpass');
+
+% Frequency Response
+freqz(coefficients, 1, 1024, fs);
+
+% Simulate Filtering
+input_signal = sin(2*pi*50*(0:1/fs:1)) + sin(2*pi*200*(0:1/fs:1)); % Test Signal
+output_signal = filter(coefficients, 1, input_signal);
+
+% Plot Results
+figure;
+subplot(2,1,1);
+plot(input_signal);
+title('Input Signal');
+subplot(2,1,2);
+plot(output_signal);
+title('Filtered Output Signal');
