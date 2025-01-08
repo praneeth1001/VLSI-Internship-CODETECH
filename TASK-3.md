@@ -1,12 +1,11 @@
 SIMULATION 
 
 
-![image](https://github.com/user-attachments/assets/7a545d1b-47da-4a25-9327-c4aff6336eeb)
+![WhatsApp Image 2025-01-08 at 21 02 52_16ff597c](https://github.com/user-attachments/assets/f8282753-ad3a-4353-b887-3f51ba8a7654)
+
 
 
 
 OUTPUT WAVEFORM 
 
-
-![image](https://github.com/user-attachments/assets/45bac0d6-942a-45c6-89c7-d6b6a538c54b)
 
